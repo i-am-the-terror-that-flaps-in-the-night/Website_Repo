@@ -1,1 +1,14 @@
 .idea
+.DS_Store
+node_modules/
+*.log
+*.swp
+*.swo
+*~
+.env
+dist/
+build/
+.vscode/
+*.pyc
+__pycache__/
+.pytest_cache/
