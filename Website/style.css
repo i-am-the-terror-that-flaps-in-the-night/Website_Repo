@@ -31,7 +31,7 @@ body {
   background: #1e293b;
   padding: 20px;
   border-radius: 12px;
-  width: 250px;
+  width: 1000px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.3);
 }
 
@@ -41,13 +41,13 @@ body {
 
 /* Button */
 button {
-  margin-top: 10px;
+  margin-top: 100px;
   padding: 10px 14px;
   border: none;
-  border-radius: 8px;
-  cursor: pointer;
+  border-radius: 80px;
+  cursor: crosshair;
   background: #22c55e;
-  color: white;
+  color: #ff0000;
 }
 
 button:hover {
