@@ -1,64 +1,25 @@
 body {
-  margin: 0;
-  font-family: Arial, sans-serif;
-  background: #0f172a;
-  color: #e2e8f0;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 
-/* Header */
-.header {
-  text-align: center;
-  padding: 40px 20px;
-  background: #1e293b;
+/* Hero */
+.hero {
+    background: url("Razer_Pic_1.jpg") center/cover;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
 }
 
-.header h1 {
-  margin: 0;
-  color: #38bdf8;
+/* Sections */
+.section {
+    padding: 60px 20px;
+    max-width: 900px;
+    margin: auto;
 }
 
-/* Layout */
-.container {
-  display: flex;
-  gap: 20px;
-  padding: 30px;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-/* Cards */
-.card {
-  background: #1e293b;
-  padding: 20px;
-  border-radius: 12px;
-  width: 1000px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.3);
-}
-
-.card h2 {
-  color: #facc15;
-}
-
-/* Button */
-button {
-  margin-top: 100px;
-  padding: 10px 14px;
-  border: none;
-  border-radius: 80px;
-  cursor: crosshair;
-  background: #22c55e;
-  color: #ff0000;
-}
-
-button:hover {
-  background: #16a34a;
-}
-
-/* Footer */
-.footer {
-  text-align: center;
-  padding: 20px;
-  margin-top: 40px;
-  background: #1e293b;
-  font-size: 14px;
+.highlight {
+    background: #0f172a;
+    color: white;
+    text-align: center;
 }
