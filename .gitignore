@@ -1,100 +1,45 @@
-# --- OS ---
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/node_modules
+/.pnp
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
+
+# testing
+/coverage
+
+# next.js
+/.next/
+/out/
+
+# production
+/build
+
+# misc
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
-Thumbs.db
-Desktop.ini
-
-# --- Editors & IDEs ---
-.idea/
-.vscode/
-*.swp
-*.swo
-*~
-*.sublime-project
-*.sublime-workspace
-.project
-.classpath
-.settings/
-!.vscode/extensions.json
-!.vscode/settings.json
-
-# --- Environment & secrets ---
-.env
-.env.*
-!.env.example
-!.env.template
 *.pem
-*.key
-credentials.json
-secrets.json
 
-# --- Logs & debug ---
-*.log
+# debug
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-pnpm-debug.log*
-lerna-debug.log*
+.pnpm-debug.log*
 
-# --- Node / JavaScript ---
-node_modules/
-.pnp
-.pnp.js
-.yarn/cache
-.yarn/unplugged
-.yarn/build-state.yml
-.yarn/install-state.gz
-package-lock.json.bak
+# env files (can opt-in for committing if needed)
+.env*
 
-# --- Build output ---
-dist/
-build/
-out/
-.next/
-.nuxt/
-.output/
-.parcel-cache/
-.cache/
-.turbo/
-.vercel/
-.netlify/
-.wrangler/
+# vercel
+.vercel
+
+# typescript
 *.tsbuildinfo
+next-env.d.ts
 
-# --- Test & coverage ---
-coverage/
-.nyc_output/
-*.lcov
-.jest/
-
-# --- Python ---
-__pycache__/
-*.py[cod]
-*$py.class
-*.so
-.Python
-.venv/
-venv/
-env/
-ENV/
-.pytest_cache/
-.mypy_cache/
-.ruff_cache/
-*.egg-info/
-.eggs/
-*.egg
-pip-log.txt
-pip-delete-this-directory.txt
-.ipynb_checkpoints/
-*.ipynb_checkpoints
-
-# --- Misc ---
-*.local
-*.bak
-*.tmp
-*.temp
-.cache
+# editors
+.idea/
+.vscode/
